@@ -12,14 +12,14 @@ public class TextToImageRequest {
     private int steps = 30;
     private String  style_preset;
 
-// inner class for the text_prompts
+    // inner class for the text_prompts
     public static class TextPrompt {
         private String text;
-        
+
         public TextPrompt(String text) {
             this.text = text;
         }
-        
+
         public String getText() {
             return text;
         }
